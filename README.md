@@ -50,7 +50,7 @@ Window closes after 2 seconds on success, stays open on error.
 | **No Secrets** | Only relays authorization code (useless without PKCE verifier) |
 
 ## Key Files
-- **Callback Page:** `oauth-callback.html` (hosted at `auth.ixwisdom.com`)
+- **Callback Page:** `callback.html` (hosted at `yourdomain.com`)
 - **Zendesk App:** Listens for `AZURE_B2C_CALLBACK` messages via `addEventListener('message')`
 
 ## Why Wildcard Fallback?
