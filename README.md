@@ -8,7 +8,7 @@ Static HTML page that receives OAuth authorization codes from Azure B2C and secu
 ### 1. **Receives Authorization Code**
 ```
 Azure B2C redirects to:
-https://auth.ixwisdom.com/oauth-callback.html?code=ABC123&state=XYZ789
+https://yourdomain.com/callback.html?code=ABC123&state=XYZ789
 ```
 
 ### 2. **Validates Origin** (Security Layer)
